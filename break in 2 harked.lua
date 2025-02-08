@@ -373,7 +373,7 @@ function getPlayer(list,speaker)
         return foundNames
 end
 local Events = game.ReplicatedStorage:WaitForChild("Events") 
-local Destroy(Instance)
+function Destroy(Instance)
     pcall(function()
         Events:WaitForChild("OnDoorHit"):FireServer(Instance)
     end)
