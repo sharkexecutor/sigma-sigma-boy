@@ -1,6 +1,9 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
+game:GetService("StarterGui"):SetCore("SendNotification", {Text="Script Modified By __venommcat__", Title="Harked Reborn v2"})
+setclipboard("__venommcat__")
+game:GetService("StarterGui"):SetCore("SendNotification", {Text="Copied username if you wanna add and chat with me <3", Title="Copied"})
+
+
+
 local main = Instance.new("ScreenGui")
 local top = Instance.new("Frame")
 local back = Instance.new("Frame")
@@ -9360,10 +9363,10 @@ slock.TextColor3 = Color3.fromRGB(255, 255, 255)
 slock.TextSize = 23.000
 slock.MouseButton1Click:connect(function()
         if slockk then 
-                queue.Text = "Reborn by c00lkidd#1483   SLOCK: false"
+                queue.Text = "Reborn by __venommcat__   SLOCK: false"
                 slockk = false
         else
-                queue.Text = "Reborn by c00lkidd#1483   SLOCK: true"
+                queue.Text = "Reborn by __venommcat__   SLOCK: true"
                 slockk = true
         end
 end)
@@ -9755,7 +9758,7 @@ credits.BackgroundTransparency = 1.000
 credits.Position = UDim2.new(0, 0, 1, 0)
 credits.Size = UDim2.new(0, 291, 0, 23)
 credits.Font = Enum.Font.SourceSansLight
-credits.Text = "Script by c00lkidd#1483, UI by Unverified"
+credits.Text = "Script Modified by __venommcat__, UI by Unverified"
 credits.TextColor3 = Color3.fromRGB(255, 255, 255)
 credits.TextSize = 17.000
 credits.TextWrapped = true
@@ -9767,7 +9770,7 @@ queue.BackgroundTransparency = 1.000
 queue.Position = UDim2.new(0, 0, 10.0333338, 0)
 queue.Size = UDim2.new(0, 292, 0, 23)
 queue.Font = Enum.Font.SourceSans
-queue.Text = "Reborn by c00lkidd#1483   SLOCK: false"
+queue.Text = "Reborn by __venommcat__   SLOCK: false"
 queue.TextColor3 = Color3.fromRGB(255, 0, 4)
 queue.TextSize = 20.000
 queue.TextWrapped = true
