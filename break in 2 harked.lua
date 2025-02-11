@@ -1,5 +1,5 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {Text="Script Modified By __venommcat__", Title="Harked Reborn v2"})
-setclipboard("__venommcat__")
+game:GetService("StarterGui"):SetCore("SendNotification", {Text="Script Modified By __zainxain__", Title="Kiko Reborn v2"})
+setclipboard("zainxaino")
 game:GetService("StarterGui"):SetCore("SendNotification", {Text="Copied username if you wanna add and chat with me <3", Title="Copied"})
 
 
